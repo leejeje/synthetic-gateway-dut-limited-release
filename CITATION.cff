@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+title: "AI-Based Cross-Interface Attack Chain Generation and Optimization for Automotive Cybersecurity Penetration Testing Using a Synthetic Gateway-DUT"
+message: "If you use this repository, please cite the associated IEEE Access article."
+type: software
+authors:
+  - family-names: Lee
+    given-names: Jaejoon
+  - family-names: Bak
+    given-names: Gwiman
+  - family-names: Bae
+    given-names: Youngchul
+version: "1.0.0"
+date-released: "2026-09-05"
+repository-code: "https://github.com/leejeje/synthetic-gateway-dut-limited-release"
