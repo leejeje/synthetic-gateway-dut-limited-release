@@ -1,0 +1,24 @@
+# Public protocol description — intentionally non-executable
+# Local DUT endpoints and machine-specific paths are omitted.
+protocol_status: documentation_only
+matched_seed_evaluation:
+  n_seeds: 20
+  episodes_per_training_run: 500
+  policies: 7
+  evaluation: one frozen-policy rollout per seed and policy
+  seed_manifest: seed_manifest.yaml
+primary_policies:
+  - MAB+PPO
+  - Expert Chain
+  - MAB-Only
+  - PPO-Only
+  - DQN
+  - Round-Robin
+  - Random
+ablations:
+  novelty_reward: true
+  no_novelty_policy_subset: [MAB+PPO, MAB-Only, PPO-Only, Random]
+security_scope:
+  synthetic_gateway_dut_only: true
+  no_production_vehicle_targets: true
+  no_public_network_endpoint: true

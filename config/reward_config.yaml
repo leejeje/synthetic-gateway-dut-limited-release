@@ -1,0 +1,18 @@
+# Documentation-only reward configuration aligned with Section IV-B of the accepted manuscript.
+# This YAML is not executable and does not generate experimental results.
+
+reward_components:
+  finding_severity:
+    CRITICAL: 100.0
+    HIGH: 72.0
+    MEDIUM: 47.0
+    LOW: 15.0
+    NONE: 0.0
+  novelty_bonus: 10.0
+  time_step_cost_per_second: -0.5
+  stability_violation_penalty: -50.0
+
+# Rt = Ft + 10.0*Nt - 0.5*Tt - 50.0*St
+# Coverage gain, duplicate penalty, and invalid-action penalty are
+# separate logging/analysis metrics, not direct reward components.
+protocol_status: documentation_only

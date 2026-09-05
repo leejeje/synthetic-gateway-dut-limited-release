@@ -1,0 +1,31 @@
+# Documentation-only MAB-to-PPO handoff configuration aligned with Section IV-C
+# and the algorithm description in the accepted manuscript.
+# This YAML is not executable and does not generate experimental results.
+
+handoff:
+  training_episodes_per_run: 500
+  cold_start_fraction_of_total_training_episodes: 0.20
+  cold_start_episodes_if_training_episodes_500: 100
+  action_arms: 28
+  ucb1_top_k_portfolio: 10
+  ucb1_exploration_constant: 1.414
+  initial_policy_logit_bias:
+    portfolio_actions: 1.5
+    non_portfolio_actions: 0.0
+  bias_schedule: linear_annealing_to_zero_over_remaining_training_episodes
+
+ppo_hyperparameters:
+  learning_rate: 3e-4
+  clip_ratio: 0.2
+  entropy_coefficient: 0.01
+  discount_factor: 0.99
+  gae_lambda: 0.95
+  batch_size: 64
+  rollout_steps: 2048
+
+evaluation_protocol:
+  matched_seeds: 20
+  one_frozen_policy_rollout_per_seed_and_policy: true
+  policy_weights_frozen_before_evaluation: true
+  online_gradient_updates_during_evaluation: false
+protocol_status: documentation_only
