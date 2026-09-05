@@ -1,0 +1,8 @@
+Policy,Successful_Attempts,Total_Executable_Attempts,ASR_pct,Wilson_95CI
+MAB+PPO,1700,2000,85.0,"[83.4%, 86.5%]"
+MAB-Only,1708,2000,85.4,"[83.8%, 86.9%]"
+Expert Chain,922,2000,46.1,"[43.9%, 48.3%]"
+PPO-Only,824,2000,41.2,"[39.1%, 43.4%]"
+DQN,716,2000,35.8,"[33.7%, 37.9%]"
+Round-Robin,510,2000,25.5,"[23.6%, 27.5%]"
+Random,304,2000,15.2,"[13.7%, 16.8%]"
