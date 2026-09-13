@@ -12,8 +12,7 @@ Included materials are:
 - an offline schema and consistency smoke test; and
 - license files and citation metadata.
 
-This is a **limited public release**. It is not a raw-log archive and it is not presented as a complete independent reproduction package. The executable experiment source, raw SQLite/log files, and the original attempt-level log corresponding to the manuscript’s 2,000-attempt ASR denominator are not included because those materials are not available in the retained project files.
-
+This is a **limited public release**. It is not a raw-log archive and it is not presented as a complete independent reproduction package. The executable experiment source, raw SQLite/log files, and the original attempt-level log corresponding to the manuscript’s 2,000-attempt ASR denominator are not included. 
 The YAML configuration files document parameters explicitly stated in the accepted manuscript; they do not generate or impute result data. The included CSV files are static aggregate/seed-level transcriptions. The Supplementary S2 CSV is an aggregate transcription of the values reported in the accepted manuscript. 
 ## Safety and authorization
 
