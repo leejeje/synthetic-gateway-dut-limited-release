@@ -14,8 +14,7 @@ Included materials are:
 
 This is a **limited public release**. It is not a raw-log archive and it is not presented as a complete independent reproduction package. The executable experiment source, raw SQLite/log files, and the original attempt-level log corresponding to the manuscript’s 2,000-attempt ASR denominator are not included because those materials are not available in the retained project files.
 
-The YAML configuration files document parameters explicitly stated in the accepted manuscript; they do not generate or impute result data. The included CSV files are static aggregate/seed-level transcriptions. The Supplementary S2 CSV is an aggregate transcription of the values reported in the accepted manuscript. It is not regenerated attempt-level raw data, and no independent reconstruction of the missing 2,000-attempt log is claimed. Available 10,000-attempt materials and normalized-TTFF reconstructions are not substituted for the manuscript-consistent values.
-
+The YAML configuration files document parameters explicitly stated in the accepted manuscript; they do not generate or impute result data. The included CSV files are static aggregate/seed-level transcriptions. The Supplementary S2 CSV is an aggregate transcription of the values reported in the accepted manuscript. 
 ## Safety and authorization
 
 The materials are limited to an authorized synthetic or isolated Gateway-DUT environment. Do not connect them to a production vehicle, public network, or third-party system, and do not use them to probe, disrupt, bypass authentication on, or inject traffic into systems without explicit authorization.
