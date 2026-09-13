@@ -21,6 +21,5 @@ protocol:
 seeds: [42, 123, 456, 789, 2024, 7, 11, 19, 27, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73]
 notes:
   - "No local absolute paths, private endpoints, credentials, or personal contact details are included."
-  - "The manuscript-consistent S2 table reports 2,000 attempts per policy, but the original attempt-level provenance was not located in the current workspace."
   - "Do not label the manuscript-consistent S2 aggregate as regenerated raw attempt-level data."
   - "The public release must not add the historical ppo_only folder to the seven-policy primary evaluation."
